@@ -3,7 +3,7 @@ const request = require("supertest");
 
 describe('TEST app.js', () => {
     afterAll(async () => {
-        server.close();
+        app.close();
     });
 
     test('POST /maze should return successfully posted minimum number of steps in a maze', async () => {
