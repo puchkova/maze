@@ -25,14 +25,14 @@ It is not allowed to go through the walls. The starting point is the upper left 
 
 4. Open API Client and send the POST request using URL http://localhost:3000/maze with the maze in request body. Select `application/json` in the body content type field.
 
-	*Example input:   
+	*Example input:*   
 [  
   [".", ".", "."],  
   ["#", "#", "."],  
   [".", ".", "."],  
   [".", "#", "#"],  
   [".", ".", "."]  
-]*
+]
 
 5. Now you can see in response body the minimum number of steps to go throught the maze 
 
