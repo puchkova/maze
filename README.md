@@ -1,11 +1,10 @@
 # Maze
+The project is the NodeJS server-side application built using Express framework. 
+The Jest framework and the Supertest library were used for automated testing.
+
 The point of this application is to get the minimum number of steps needed to go through the rectangular maze. 
 The maze is rectangular a matrix with maximum size of 30x30. Every cell can be empty (.) or be a wall (#). 
 It is not allowed to go through the walls. The starting point is the upper left point and the end is the lower right point. 
-
-## Tools
-The project is the NodeJS server-side application built using Express framework. 
-The Jest framework and the Supertest library were used for automated testing.
 
 ## Application Structure
 - `app.js` - The entry point to the application. This file defines the server. It also contains the POST request.
@@ -26,14 +25,14 @@ The Jest framework and the Supertest library were used for automated testing.
 
 4. Open API Client and send the POST request using URL http://localhost:3000/maze with the maze in request body. Select `application/json` in the body content type field.
 
-	*Example input: 
-[
-  [".", ".", "."],
-  ["#", "#", "."],
-  [".", ".", "."],
-  [".", "#", "#"],
-  [".", ".", "."]
-]*
+	*Example input:* 
+*[*
+  *[".", ".", "."],*
+  *["#", "#", "."],*
+  *[".", ".", "."],*
+  *[".", "#", "#"],*
+  *[".", ".", "."]*
+*]*
 
 5. Now you can see in response body the minimum number of steps to go throught the maze 
 
