@@ -31,7 +31,7 @@ The point of this application is to get the minimum number of steps needed to go
   [".", ".", "."]  
 ]
 
-5. Now you can see in the response body the minimum number of steps to go throught the maze 
+5. Now you can see the minimum number of steps to go throught the maze in the response body 
 
 6. Run the `npm test` command to run the automated tests 
 
