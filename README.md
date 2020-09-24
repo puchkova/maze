@@ -1,10 +1,7 @@
 # Maze
-The project is the NodeJS server-side application built using Express framework.   
-The Jest framework and the Supertest library were used for automated testing.
+The project is the NodeJS server-side application built using Express framework. The Jest framework and the Supertest library were used for automated testing.
 
-The point of this application is to get the minimum number of steps needed to go through the rectangular maze.   
-The maze is rectangular a matrix with maximum size of 30x30. Every cell can be empty (.) or be a wall (#).   
-It is not allowed to go through the walls. The starting point is the upper left point and the end is the lower right point.   
+The point of this application is to get the minimum number of steps needed to go through the rectangular maze. The maze is rectangular a matrix with maximum size of 30x30. Every cell can be empty (.) or be a wall (#). It is not allowed to go through the walls. The starting point is the upper left point and the end is the lower right point.   
 
 ## Application Structure
 - `app.js` - The entry point to the application. This file defines the server. It also contains the POST request.
