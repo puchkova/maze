@@ -19,6 +19,11 @@ function isMazeValid(maze){
             }
         }
     }
+
+    if(maze[height-1][width-1].localeCompare(".") !==0){
+        return false;
+    }
+
     return true;
 }
 
