@@ -12,15 +12,14 @@ The point of this application is to get the minimum number of steps needed to go
 - `labyrinth.spec.js` - This file contains unit tests for the `isMazeValid` and `findMinimumNumberOfSteps` functions.
 - `app.spec.js` - This file contains a test suit for the endpoint.
 - `Dockerfile` - This file contains the build instructions to build the image.
+- `docker-compose.yml` - This file contains the conficuration to set up the docker environment.
 
 ## Installing & Running 
 1. Clone this repo
 
-2. Open your terminal and run the command `npm install`
+2. Open your terminal and run the command `docker run -d -p 8080:3000 docker-maze` to run the application in docker container
 
-3. Run the command `node src/app.js`
-
-4. Open API Client and send the POST request using URL http://localhost:3000/maze with the maze in request body. Select `JSON` as the body content type.
+3. Open API Client and send the POST request using URL http://localhost:8080/maze with the maze in request body. Select `JSON` as the body content type.
 
 	*Example input:*   
 [  
@@ -31,10 +30,8 @@ The point of this application is to get the minimum number of steps needed to go
   [".", ".", "."]  
 ]
 
-5. Now you can see the minimum number of steps to go throught the maze in the response body 
+4. Now you can see the minimum number of steps to go throught the maze in the response body 
+
+5. Run the `npm install` command to download devDependencies
 
 6. Run the `npm test` command to run the automated tests 
-
-7. Run the `docker run -it -p 8080:3000 maze-docker` command to run the application in docker container 
-
-8. Your server is now available at http://localhost:8080/maze
