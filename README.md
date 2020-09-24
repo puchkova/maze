@@ -23,7 +23,7 @@ The point of this application is to get the minimum number of steps needed to go
 
 2. Open your terminal and run the command `docker run -d -p 8080:3000 docker-maze` to run the application in docker container
 
-3. Open API Client and send the POST request using URL http://localhost:8080/maze with the maze in request body. Select `JSON` as the body content type.
+3. Open the API Client and send the POST request using URL http://localhost:8080/maze with the maze in request body. Select `JSON` as the body content type.
 
 	*Example input:*   
 [  
