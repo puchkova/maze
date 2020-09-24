@@ -9,7 +9,7 @@ The point of this application is to get the minimum number of steps needed to go
 	 - `isMazeValid` - This function checks if the matrix is rectangular, contains only allowed values, is not larger than allowed size and is not empty. 
 	 - `findPath` - This function returns the shortest path in the maze. 
 	 - `findMinimumNumberOfSteps` - This function returns the length of the path.
-- `labyrinth.spec.js` - This file contains a unit tests for the `isMazeValid` and `findMinimumNumberOfSteps` functions.
+- `labyrinth.spec.js` - This file contains unit tests for the `isMazeValid` and `findMinimumNumberOfSteps` functions.
 - `app.spec.js` - This file contains a test suit for the endpoint.
 - `Dockerfile` - This file contains the build instructions to build the image.
 
