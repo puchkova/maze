@@ -77,7 +77,16 @@ function createMaze(){
     test('should return false if cells contain neither "." nor "#"', () => {
         const maze = [
             [".", "."],
-            ["!", "#"]
+            ["!", "."]
+        ];
+
+        expect(labyrinth.isMazeValid(maze)).toEqual(false);
+    });
+
+    test('should return false if the last cell contains "#"', () => {
+        const maze = [
+            [".", "."],
+            [".", "#"]
         ];
 
         expect(labyrinth.isMazeValid(maze)).toEqual(false);
