@@ -1,13 +1,13 @@
-FROM node:10
+FROM node:latest
 
-WORKDIR /app
+WORKDIR src/app
 
-COPY package.json src/app
+COPY package.json ./
 
 RUN npm install
 
-COPY . /app
-
-CMD node src/app.js
+COPY . .
 
 EXPOSE 8080
+
+CMD [ "node", "src/app.js"]
