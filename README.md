@@ -20,7 +20,7 @@ The point of this application is to get the minimum number of steps needed to go
 
 3. Run the command `node src/app.js`
 
-4. Open API Client and send the POST request using URL http://localhost:3000/maze with the maze in request body. Select `application/json` in the body content type field.
+4. Open API Client and send the POST request using URL http://localhost:3000/maze with the maze in request body. Select `JSON` as the body content type.
 
 	*Example input:*   
 [  
