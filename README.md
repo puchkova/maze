@@ -4,8 +4,8 @@ The project is the NodeJS server-side application built using Express framework.
 The point of this application is to get the minimum number of steps needed to go through the maze. The maze is rectangular a matrix with maximum size of 30x30. Every cell can be empty (.) or be a wall (#). It is not allowed to go through the walls. The starting point is the upper left point and the end is the lower right point.   
 
 ## Prerequisites
-NodeJS - You can follow instructions https://nodejs.org/en/ to install node on your machine.
-Docker - You can follow instructions https://docs.docker.com/engine/installation/ to install Docker on your machine.
+- NodeJS - You can follow instructions https://nodejs.org/en/ to install node on your machine.
+- Docker - You can follow instructions https://docs.docker.com/engine/installation/ to install Docker on your machine.
 
 ## Application Structure
 - `app.js` - The entry point to the application. This file defines the server. It also contains the POST request.
