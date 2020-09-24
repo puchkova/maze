@@ -57,7 +57,7 @@ describe('isMazeValid function', () => {
     expect(labyrinth.isMazeValid(maze)).toEqual(false);
 });
 
-    test('should return false if the maze size is greater than 30*30', () => {
+    test('should return false if the maze size is larger than 30*30', () => {
     const maze = createMaze();
 
     expect(labyrinth.isMazeValid(maze)).toEqual(false);
