@@ -3,7 +3,7 @@ function isMazeValid(maze){
     var width = maze[0].length;
 
     if(height > 30 || width > 30
-        || height <= 0 || width <= 0){
+        || height === 0 || width === 0){
         return false;
     }
 
@@ -14,13 +14,11 @@ function isMazeValid(maze){
 
         for(var j = 0; j<width; j++){
             let cell = maze[i][j];
-
             if(cell.localeCompare(".") !==0 && cell.localeCompare("#") !==0){
                 return false;
             }
         }
     }
-
     return true;
 }
 
