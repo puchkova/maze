@@ -38,4 +38,4 @@ The point of this application is to get the minimum number of steps needed to go
 
 5. Run the `npm install` command to download devDependencies
 
-6. Run the `npm test` command to run the automated tests 
+6. Run the `npm test` command to run automated tests 
